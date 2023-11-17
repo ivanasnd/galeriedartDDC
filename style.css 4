@@ -1,0 +1,112 @@
+
+*{
+
+}
+
+
+
+    
+}
+
+body{
+    margin: 0 auto;
+    padding: 0%;
+    background-color: mistyrose;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* tete de page */
+/*bande marron*/ 
+
+header.header {
+display: flex;
+align-items: center ;
+height: 170px;
+position: relative;
+display: flex;
+list-style: none;
+background-color:gray ;
+width: 1500px;
+justify-content: space-between;
+margin-top: 20px;
+padding-right: 75px;
+
+}
+/*bande marron*/ 
+
+/*lettre blaches navigation*/
+nav.nav{
+    display: flex;
+    list-style: none;
+    background-color:;
+    width: 3000px;
+    padding-left: 600px;
+    margin-top: 0px;
+    justify-content: space-between;
+    
+}
+/*lettre blaches navigation*/
+
+/*logo*/
+header.header img{
+    width: 130px;
+    padding-left: 130px;
+    position:fixed
+}
+/*logo*/
+
+/*menu de navigation*/
+nav.nav li{
+    color: white;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 10px; /* A AJOUTER Bordure arrondie */
+}
+
+/*menu de navigation*/
+
+/*page de bienvenue (landing page) */
+
+/*image fond*/
+
+img.imagefond{
+    width: 1575px;
+    padding-top: 30px;
+}
+
+
+
+
+/*image fond*/
+
+/*texte bienvenue*/
+section.bienvenuetexte{
+   
+    
+    position: ;
+    padding-left: 130px;
+    
+}
+/*texte bienvenue*/
+
+
+
+    .rectangle{
+        width: 600px; /* Largeur du rectangle */
+        height: 250px; /* Hauteur du rectangle */
+        padding:left 300px; 
+        
+    background-color: white;
+    position:relative;
+    bottom: 70px;
+}
+
+img.statue{
+    width: 230px;
+    padding-left: 500px;
+    padding-top: -500px;
+    position:relative;
+    bottom: 70px;
+}
+
