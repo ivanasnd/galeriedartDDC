@@ -1,112 +1,105 @@
-
-*{
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-
-
-    
-}
-
-body{
+body {
+    background-color: #F1E8E8;
     margin: 0 auto;
-    padding: 0%;
-    background-color: mistyrose;
-    max-width: 100%;
     overflow-x: hidden;
 }
 
-/* tete de page */
-/*bande marron*/ 
-
-header.header {
-display: flex;
-align-items: center ;
-height: 170px;
-position: relative;
-display: flex;
-list-style: none;
-background-color:gray ;
-width: 1500px;
-justify-content: space-between;
-margin-top: 20px;
-padding-right: 75px;
-
-}
-/*bande marron*/ 
-
-/*lettre blaches navigation*/
-nav.nav{
+    
+    /* tete de page */
+    /*bande marron*/ 
+    
+    header.header {
+    display: flex;
+    align-items: center ;
+    height: 400px;
+    position: relative;
     display: flex;
     list-style: none;
-    background-color:;
-    width: 3000px;
-    padding-left: 600px;
-    margin-top: 0px;
+    background-color: #B8ADAD;;
+    width: 1500px;
     justify-content: space-between;
+    margin-top: 70px;
+    padding-right: 75px;
+     width: 100%;
     
-}
-/*lettre blaches navigation*/
-
-/*logo*/
-header.header img{
-    width: 130px;
-    padding-left: 130px;
+    }
+    /*bande marron*/ 
+    
+    /*lettre blaches navigation*/
+    nav.nav{
+        display: flex;
+        list-style: none;
+        background-color:;
+        width: 3000px;
+        margin-left: 2100px;
+        margin-top: 0px;
+        justify-content: space-between;
+        
+    }
+    /*lettre blaches navigation*/
+    
+   /* Logo */
+header.header img {
+    width: 400px;
+    margin-left:  500px;
     position:fixed
 }
-/*logo*/
 
-/*menu de navigation*/
-nav.nav li{
-    color: white;
-    font-size: 30px;
-    font-family: 'Raleway', sans-serif;
-    border-radius: 10px; /* A AJOUTER Bordure arrondie */
-}
-
-/*menu de navigation*/
-
-/*page de bienvenue (landing page) */
-
-/*image fond*/
-
+    /*logo*/
+    
+    /*menu de navigation*/
+    nav.nav li{
+        color: white;
+        font-size: 80px;
+        font-family: 'Raleway', sans-serif;
+        border-radius: 10px; /* A AJOUTER Bordure arrondie */
+    }
+    
+    /*menu de navigation*/
+    
+    /*page de bienvenue (landing page) */
+    
+    
+   /* Image de fond */
 img.imagefond{
-    width: 1575px;
-    padding-top: 30px;
+    width: 100%; /* Utilise la largeur complète du conteneur parent */
+    padding-top: 70px;
+    
 }
+    /*image fond*/
 
-
-
-
-/*image fond*/
-
-/*texte bienvenue*/
-section.bienvenuetexte{
+        .rectangle{
+            width: 600px; /* Largeur du rectangle */
+            height: 900px; /* Hauteur du rectangle */
+            padding-left: 3000px;
+            margin-left: 300px;
+            
+        background-color: white;
+        position:relative;
+        bottom: 170px;
+    }
    
-    
-    position: ;
-    padding-left: 130px;
-    
-}
-/*texte bienvenue*/
-
-
-
-    .rectangle{
-        width: 600px; /* Largeur du rectangle */
-        height: 250px; /* Hauteur du rectangle */
-        padding:left 300px; 
-        
-    background-color: white;
-    position:relative;
-    bottom: 70px;
+ /* Statue */
+img.statue {
+    width: 800px;
+    position: relative;
+   
+    margin-left: -800px; /* Ajuster selon vos besoins */
 }
 
-img.statue{
-    width: 230px;
-    padding-left: 500px;
-    padding-top: -500px;
-    position:relative;
-    bottom: 70px;
-}
-
+ /*texte bienvenue*/
+ .bienvenuetexte{
+    color:black;
+    font-size: 80px;
+    margin-bottom: 90px;
+    margin-left: 500px;
+    margin-top: -900px;
+    position: relative;
+   }
+    /*texte bienvenue*/
