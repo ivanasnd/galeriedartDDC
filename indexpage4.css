@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #F1E8E8;
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 59.9375rem;
+height: 41.0625rem;
+  
+}
+
+ .logo img {
+     width: 5.375rem;
+    height: 5.3125rem;
+    margin-left: 5.31rem;
+    flex-shrink: 0;
+ 
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #B8ADAD;
+    width: 959px;
+    height: 85px;
+    flex-shrink: 0;
+    justify-content: space-between;
+    padding-right: 75px;
+    margin-top: 9px;
+    margin-bottom: 35.19px; 
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 2.06px;
+}
+
+/* Styles généraux pour les liens du menu */
+nav ul li a {
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 0;
+    line-height: normal;
+    text-decoration: none; 
+    display: flex;
+width: 147px;
+height: 29px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #000;
+
+}
+
+/* Style spécifique pour le lien "ACCUEIL" */
+nav ul li:nth-child(1) a {
+    margin-right: 32.47px;
+    margin-left: 23.22px; 
+    margin-top: 2.06px; 
+    margin-bottom: 2.06px; 
+}
+
+/* Style spécifique pour le lien "OEUVRES" */
+nav ul li:nth-child(2) a {
+    margin-right: 18.44px;
+    margin-top: 2.06px;
+    margin-bottom: 2.06px; 
+    margin-left: 36.81px; 
+
+}
+
+/* Style spécifique pour le lien "À PROPOS" */
+nav ul li:nth-child(3) a {
+    margin-right: 4.94px;
+    margin-top: 2.06px;
+    margin-bottom: 2.06px; 
+    margin-left: 50.25px;  
+
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+img.small-image {
+    width: 10.6875rem;
+    height: 9rem;
+    flex-shrink: 0;
+    margin-bottom: 24.3px;
+    margin-top: 7.75px;
+    margin-left: 100px;
+    margin-right: 100px; 
+}
+
+
+img.medium-image {
+    width: 10.6875rem;
+height: 9rem;
+
+}
+
+
+img.large-image {
+    width: 10.6875rem;
+    height: 9rem;
+    flex-shrink: 0;
+    margin-bottom: 27.4px;
+    margin-top: 4.69px;
+    margin-left: 29.9px;
+    margin-right: 19.3px;
+
+}
+
+
+/* Style pour le premier rectangle */
+.text-rectangle.rectangle1 {
+
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    width: 24.5625rem;
+margin-bottom: 24.3px;
+    margin-top: 7.75px;
+    margin-left: 5.38px;
+    margin-right: 30px;
+
+}
+
+/* Style pour le deuxième rectangle */
+.text-rectangle.rectangle2 {
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+margin-bottom: 14.9px;
+    margin-top: 17.2px;
+    margin-left: 29.6px;
+    margin-right: 6.44px;
+
+}
+
+/* Style pour le troisième rectangle */
+.text-rectangle.rectangle3 {
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+margin-bottom: 4.69px;
+    margin-top: 27.4px;
+    margin-left: 6px;
+    margin-right: 30px;
+
+}
+
+
+
+.page-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px; 
+}
+
+.text-rectangle {
+    width: 30rem;
+height: 9rem;
+flex-shrink: 0;
+background: #F4F4F4;
+
+}
+
+.text-rectangle p {
+    margin-bottom: 10px;
+}
+
+
+.social-media {
+    padding: 1px;
+    text-align: center;
+}
+
+.line {
+    height: 2px;
+    margin-bottom: 20px;
+}
+
+.social-media img {
+    width: 3.1875rem;
+    height: 2.8125rem;
+    flex-shrink: 0;
+    background: #F1E8E8;
+  
+}
