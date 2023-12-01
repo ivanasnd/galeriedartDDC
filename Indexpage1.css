@@ -112,15 +112,15 @@ header.header img {
     
    /* Image de fond */
 img.imagefond{
-    width: 100%; /* Utilise la largeur complète du conteneur parent */
+    width: 100%; 
     padding-top: 70px;
     
 }
     /*image fond*/
 
         .rectangle{
-            width: 600px; /* Largeur du rectangle */
-            height: 900px; /* Hauteur du rectangle */
+            width: 600px; 
+            height: 900px; 
             padding-left: 3000px;
             margin-left: 300px;
         background-color: white;
@@ -132,7 +132,7 @@ img.imagefond{
 img.statue {
     width: 800px;
     position: relative;
-    margin-left: -800px; /* Ajuster selon vos besoins */
+    margin-left: -800px; 
 }
 
  /*texte bienvenue*/
@@ -151,8 +151,8 @@ img.statue {
     /*rectangle inscription*/
     .rectangle2{
 background-color:white;
-width: 20%; /* Largeur du rectangle */
-height: 1700px; /* Hauteur du rectangle */
+width: 20%; 
+height: 1700px; 
 padding-left: 30%;
 margin-left: 3800px;
 margin-top: -1000px;
@@ -167,9 +167,9 @@ position:absolute;
     background-color: black;
     color: white;
     display: flex;
-    width: 500px; /* Ajustez la largeur du bouton selon vos besoins */
-    height: 100px; /* Ajustez la hauteur du bouton selon vos besoins */
-    padding: 10px; /* Ajustez le rembourrage selon vos besoins */
+    width: 500px; 
+    height: 100px; 
+    padding: 10px; 
     margin-left: 550px;
     margin-top:140px;
     position: absolute;
@@ -190,10 +190,9 @@ position:absolute;
     }
     
   form input{
-    width: 500px; /* Ajustez la largeur selon vos besoins */
-    height: 90px; /* Ajustez la hauteur selon vos besoins */
-    margin-top: 250px; /* Ajoutez une marge en bas si nécessaire */
-
+    width: 500px; 
+    height: 90px; 
+    margin-top: 250px; 
     position: relative;
    
 
