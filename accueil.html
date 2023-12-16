@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACCUEIL - Galerie Dedal des Couleurs</title>
+    <link rel="stylesheet" href="siteweb.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="Logo4.png" alt="Logo Dedal des Couleurs">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="accueil.html">ACCUEIL</a></li>
+                <li class="dropdown">
+                    <a href="#">OEUVRES</a>
+                    <div class="dropdown-content">
+                        <a href="oeuvres1.html">OEUVRES 1</a>
+                        <a href="oeuvres2.html">OEUVRES 2</a>
+                    </div>
+                </li>
+                <li><a href="apropos.html">À PROPOS</a></li>
+            </ul>
+        </nav>
+    </header>
+        
+    <div class="landing-page">
+        <img src="photo.png" alt="imagefond" class="imagefond">
+    </div>
+
+    <div class="rectangle">
+        <img src="bouche.png" alt="statue" class="statue">
+    </div>
+
+    <div class="bienvenuetexte">  
+        <p><strong>Bienvenue</strong> sur le site internet de notre galerie</p>
+        <p>d’art <strong>Dedal des Couleurs</strong> où vous retrouverez</p>
+        <p>les oeuvres les plus populaires de notre galerie.</p>
+        <br>
+        <p>Venez nous rendre visite à <strong>Paris au 10 Rue</strong></p>
+        <p><strong>de la République.</strong></p> 
+    </div>
+
+    <div class="rectangle2">
+        <br>
+    </div>
+               
+    <div class="texteinscription">
+        <h2>Obtenez un contenu exclusif !</h2>
+        <p>Inscrivez-vous à notre newsletter pour recevoir</p>
+        <p>des informations inédites sur notre </p>
+        <p>galerie d'art.</p>
+
+        <button class="inscription-button" type="button">Inscription</button>
+
+        <form id="myForm" action="inscription.php" method="post">
+            <div class="form-group">
+                <label for="prenom" class="label">Prénom</label>
+                <input type="text" id="prenom" name="prenom" class="input" required>
+            </div>
+                    
+            <div class="form-group">
+                <label for="nom" class="label">Nom</label>
+                <input type="text" id="nom" name="nom" class="input" required>
+            </div>
+                    
+            <div class="form-group">
+                <label for="email" class="adresse-mail-label">Adresse mail:</label>
+                <input type="email" id="email" name="email" class="adresse-mail-input" required><br>
+            </div>
+      
+        </form>
+    </div>
+    
+    <footer>
+        <div class="footer-links">
+            <a href="oeuvres1.html">OEUVRES 1</a>
+            <a href="oeuvres2.html">OEUVRES 2</a>
+            <a href="apropos.html">À PROPOS</a>
+        </div>
+    </footer>
+
+
+ <!-- ... Votre HTML existant ... -->
+
+<button id="envoyerButton" class="submit-button" type="button">Envoyer</button>
+
+<script>
+    function checkForm() {
+        var prenom = document.getElementById("prenom").value;
+        var nom = document.getElementById("nom").value;
+        var email = document.getElementById("email").value;
+
+        if (prenom === "" || nom === "" || email === "") {
+            alert("Remplir les champs suivants");
+        } else {
+            document.getElementById("myForm").submit();
+        }
+    }
+
+</script>
+    <script>
+    // Ajouter cette partie pour associer la fonction checkForm au clic du bouton Envoyer
+    document.getElementById("envoyerButton").addEventListener("click", checkForm);
+
+</script>
+
+<script>
+    // Redirection automatique après le chargement de la page
+    window.onload = function() {
+        window.location.href = "accueil.html";
+    };
+</script>
+
+</body>
+</html>
