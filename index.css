@@ -1,0 +1,1154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #F1E8E8;
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 59.9375rem;
+height: 41.0625rem;
+  
+}
+
+ .logo img {
+     width: 5.375rem;
+    height: 5.3125rem;
+    margin-left: 5.31rem;
+    flex-shrink: 0;
+ 
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #B8ADAD;
+    width: 959px;
+    height: 85px;
+    flex-shrink: 0;
+    justify-content: space-between;
+    padding-right: 75px;
+    margin-top: 9px;
+    margin-bottom: 35.19px; 
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 2.06px;
+}
+
+/* Styles généraux pour les liens du menu */
+nav ul li a {
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 0;
+    line-height: normal;
+    text-decoration: none; 
+    display: flex;
+width: 147px;
+height: 29px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #000;
+
+}
+
+/* Style spécifique pour le lien "ACCUEIL" */
+nav ul li:nth-child(1) a {
+    margin-right: 32.47px;
+    margin-left: 23.22px; 
+    margin-top: 2.06px; 
+    margin-bottom: 2.06px; 
+}
+
+/* Style spécifique pour le lien "OEUVRES" */
+nav ul li:nth-child(2) a {
+    margin-right: 18.44px;
+    margin-top: 2.06px;
+    margin-bottom: 2.06px; 
+    margin-left: 36.81px; 
+
+}
+
+/* Style spécifique pour le lien "À PROPOS" */
+nav ul li:nth-child(3) a {
+    margin-right: 4.94px;
+    margin-top: 2.06px;
+    margin-bottom: 2.06px; 
+    margin-left: 50.25px;  
+
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.landing-page {
+    position: relative;
+}
+
+.imagefond {
+    width: 59.9375rem;
+    height: 15.375rem;
+    flex-shrink: 0;
+}  
+
+.rectangle {
+    position: absolute; 
+    width: 468px;
+    height: 216px;
+    flex-shrink: 0;
+    background: #F4F4F4;
+    margin-top: -35px;
+    margin-left:83px;
+    margin-right:391px; 
+    z-index: 0;
+}
+
+
+ .statue {
+ width: 12.625rem;
+ height: 12.5rem;
+ flex-shrink: 0;
+ margin-top: 15px; /* Ajustez selon votre besoin */
+margin-left: 270px; /* Mettez "auto" pour centrer horizontalement */
+ margin-right: 100px; /* Ajustez selon votre besoin */
+  }
+    
+
+.bienvenuetexte {
+margin-top: 1.38px;
+margin-bottom: 9.31px; 
+margin-right: 450px;
+z-index: 1;
+position: relative; 
+text-align: center;
+font-family: 'Raleway', sans-serif;
+font-size: 13px;
+
+
+}
+
+.rectangle2 {
+    width: 273px;
+    height: 320px;
+    flex-shrink: 0;
+    background: #F4F4F4;
+    margin-left: 646px; 
+    margin-top: -130px;
+    margin-right: 40px; 
+    position: absolute; 
+   
+}
+
+
+.texteinscription {
+    text-align: center;
+    margin: 20px;
+    position: relative;
+    margin-right: -600px; 
+    margin-top: -120px;
+    color: #000;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    line-height: normal;
+  
+}
+
+h2 {
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+/* Styles généraux pour le formulaire */
+form {
+    display: flex;
+    flex-direction: column; /* Aligner les éléments en colonne */
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Styles pour le groupe "Prénom" */
+.form-group:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 160px; 
+    margin-top: -20px; 
+}
+
+/* Styles pour le champ "Prénom" */
+form .form-group:nth-child(1) label {
+    color: #000;
+    text-align: center;
+    font-family: Reem Kufi;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    width: 87px;
+    height: 25px;
+    margin-bottom: 5px; /* Ajustez selon votre besoin */
+  
+}
+
+form .form-group:nth-child(1) input {
+    border: 1px solid #000;
+    background: #D9D9D9;
+    width: 87px;
+    height: 25px;
+    margin-bottom: 10px; /* Ajustez selon votre besoin */
+}
+
+/* Styles pour le groupe "Nom" */
+.form-group:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 90px; 
+    margin-top: -75px; 
+}
+
+/* Styles pour le champ "Nom" */
+form .form-group:nth-child(2) label {
+    color: #000;
+    text-align: center;
+    font-family: Reem Kufi;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    width: 87px;
+    height: 25px;
+    margin-bottom: 5px; /* Ajustez selon votre besoin */
+}
+
+form .form-group:nth-child(2) input {
+    border: 1px solid #000;
+    background: #D9D9D9;
+    width: 126px;
+    height: 25px;
+    margin-bottom: 10px; /* Ajustez selon votre besoin */
+}
+
+
+
+/* Styles pour le groupe "Adresse mail" */
+.form-group:nth-child(3) {
+    display: flex;
+    flex-direction: column; /* Aligner les éléments en colonne */
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 50px; 
+}
+
+/* Styles pour le champ "Adresse mail" */
+form .form-group:nth-child(3) label {
+    color: #000;
+    text-align: center;
+    font-family: Reem Kufi;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    width: auto;
+    height: 25px;
+    margin-right: 10px;
+}
+
+form .form-group:nth-child(3) input {
+    border: 1px solid #000;
+    background: #D9D9D9;
+    width: 193px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+/* Modifier le positionnement du champ "Adresse mail" */
+form .form-group:nth-child(3) input {
+    border: 1px solid #000;
+    background: #D9D9D9;
+    width: 193px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* Styles pour le bouton "Envoyer" */
+.submit-button {
+    display: flex;
+    width: 101px;
+    height: 24px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+background: #000;
+color: #F1E8E8;
+text-align: center;
+font-family: Raleway;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 350px; 
+margin-top: 20px;
+cursor: pointer;
+    
+}
+
+.submit-button:hover {
+    border-radius: 10px;
+background: #000;
+}
+
+/* Styles spécifiques pour le bouton "Inscription" dans le formulaire */
+.inscription-button {
+    display: flex;
+    width: 101px;
+    height: 24px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+background: #000;
+color: #F1E8E8;
+text-align: center;
+font-family: Raleway;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 720px; 
+margin-top: 5px; 
+margin-bottom: 40px; 
+ 
+}
+
+.inscription-button:hover {
+    border-radius: 10px;
+    background: #000;
+}
+
+
+.rectangle {
+    position: absolute; 
+    width: 468px;
+    height: 216px;
+    background: #F4F4F4;
+    margin-top: -35px;
+    margin-left: 83px;
+    margin-right: 391px; 
+    z-index: 0;
+
+}
+
+
+.landing-page {
+    position: relative;
+   
+}
+
+.imagefond {
+    width: 59.9375rem;
+    height: 15.375rem;
+    flex-shrink: 0;
+}
+
+
+
+.rectangle2 {
+    width: 273px;
+    height: 320px;
+    background: #F4F4F4;
+    margin-left: 646px; 
+    margin-top: -130px;
+    margin-right: 40px; 
+    position: absolute; 
+ 
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #F1E8E8;
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 59.9375rem;
+height: 41.0625rem;
+  
+}
+
+.logo img {
+    width: 5.375rem;
+    height: 5.3125rem;
+    margin-left: 5.31rem;
+    flex-shrink: 0;
+ 
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #B8ADAD;
+    width: 959px;
+    height: 85px;
+    flex-shrink: 0;
+    justify-content: space-between;
+    padding-right: 75px;
+    margin-top: 9px;
+    margin-bottom: 35.19px; 
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 2.06px;
+}
+
+/* Styles généraux pour les liens du menu */
+nav ul li a {
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 0;
+    line-height: normal;
+    text-decoration: none; 
+    display: flex;
+width: 147px;
+height: 29px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #000;
+
+}
+
+/* Style spécifique pour le lien "ACCUEIL" */
+nav ul li:nth-child(1) a {
+    margin-right: 32.47px;
+    margin-left: 23.22px; 
+    margin-top: 2.06px; 
+    margin-bottom: 2.06px; 
+}
+
+/* Style spécifique pour le lien "OEUVRES" */
+nav ul li:nth-child(2) a {
+    margin-right: 18.44px;
+    margin-top: 2.06px;
+    margin-bottom: 2.06px; 
+    margin-left: 36.81px; 
+
+}
+
+/* Style spécifique pour le lien "À PROPOS" */
+nav ul li:nth-child(3) a {
+    margin-right: 4.94px;
+    margin-top: 2.06px;
+    margin-bottom: 2.06px; 
+    margin-left: 50.25px;  
+
+}
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.oeuvres-section {
+    width: 60.375rem;
+    height: 5.75rem;
+    flex-shrink: 0;
+background: #FFF;
+margin-top: 1.25px;
+margin-bottom: 28.2px; 
+margin-left: -0.3px;
+margin-right: -0.2px; 
+
+
+}
+
+
+
+.text-box {
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 1.63px;
+    margin-bottom: 20px;
+    margin-right: 17.87px;
+    margin-left: 14.75px;
+    line-height: 1.125rem;
+}
+
+
+   
+
+
+.text-box p {
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 1.63px;
+    margin-bottom: 10px;
+    margin-right: 17.87px;
+    margin-left: 14.75px;
+    line-height: 1.125rem;
+}
+
+.images-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.oeuvres-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFF;
+    margin-top: 1.25px;
+    margin-bottom: 28.2px;
+}
+
+.image-box.oeuvre-1 {
+    width: 16.375rem;
+    height: 21.9375rem;
+    flex-shrink: 0;
+    border: 1px solid #1C1A1A;
+    background: #FFF;
+    margin-top: 100px;
+    margin-left: 2.5px;
+    margin-right: 41.1px;
+    margin-bottom: 3.31px;
+}
+
+.image-box.oeuvre-2 {
+    width: 16.375rem;
+    height: 21.9375rem;
+    flex-shrink: 0;
+    border: 1px solid #1C1A1A;
+    background: #FFF;
+    margin-top: 100px;
+    margin-left: 22.8px;
+    margin-right: 20.8px;
+    margin-bottom: 3.31px;
+}
+
+.image-box.oeuvre-3 {
+    width: 16.375rem;
+    height: 21.9375rem;
+    flex-shrink: 0;
+    border: 1px solid #1C1A1A;
+    background: #FFF;
+    margin-left: 41.8px;
+    margin-right: 1.74px;
+    margin-bottom: 3.38px;
+    margin-top: 100px;
+
+}
+
+
+.oeuvre-1 .text-box {
+margin-bottom: 10px; 
+}
+.oeuvre-2 .text-box
+
+.oeuvre-3 .text-box {
+ margin-bottom: 0px;
+}
+
+.image-box {
+    width: 16.375rem;
+    height: 21.9375rem;
+    flex-shrink: 0;
+    border: 1px solid #1C1A1A;
+    background: #FFF;
+}
+
+.image-box img {
+    width: 13.625rem;
+    height: 15.1875rem;
+    flex-shrink: 0;
+}   
+
+.image-box p {
+    margin: 5px;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #F1E8E8;
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 59.9375rem;
+height: 41.0625rem;
+  
+}
+
+.logo img {
+    width: 5.375rem;
+    height: 5.3125rem;
+    margin-left: 5.31rem;
+    flex-shrink: 0;
+ 
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #B8ADAD;
+    width: 959px;
+    height: 85px;
+    flex-shrink: 0;
+    justify-content: space-between;
+    padding-right: 75px;
+    margin-top: 9px;
+    margin-bottom: 35.19px; 
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 2.06px;
+}
+
+/* Styles généraux pour les liens du menu */
+nav ul li a {
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 0;
+    line-height: normal;
+    text-decoration: none; 
+    display: flex;
+width: 147px;
+height: 29px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #000;
+
+}
+
+/* Style spécifique pour le lien "ACCUEIL" */
+nav ul li:nth-child(1) a {
+    margin-right: 32.47px;
+    margin-left: 23.22px; 
+    margin-top: 2.06px; 
+    margin-bottom: 2.06px; 
+}
+
+/* Style spécifique pour le lien "OEUVRES" */
+nav ul li:nth-child(2) a {
+    margin-right: 18.44px;
+    margin-top: 2.06px;
+    margin-bottom: 2.06px; 
+    margin-left: 36.81px; 
+
+}
+
+/* Style spécifique pour le lien "À PROPOS" */
+nav ul li:nth-child(3) a {
+    margin-right: 4.94px;
+    margin-top: 2.06px;
+    margin-bottom: 2.06px; 
+    margin-left: 50.25px;  
+
+}
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.oeuvres-section {
+    width: 60.375rem;
+    height: 5.75rem;
+    flex-shrink: 0;
+background: #FFF;
+margin-top: 1.25px;
+margin-bottom: 28.2px; 
+margin-left: -0.3px;
+margin-right: -0.2px; 
+
+
+}
+
+
+
+.text-box {
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 1.63px;
+    margin-bottom: 20px;
+    margin-right: 17.87px;
+    margin-left: 14.75px;
+    line-height: 1.125rem;
+}
+
+
+   
+
+
+.text-box p {
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 1.63px;
+    margin-bottom: 10px;
+    margin-right: 17.87px;
+    margin-left: 14.75px;
+    line-height: 1.125rem;
+}
+
+.images-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.oeuvres-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFF;
+    margin-top: 1.25px;
+    margin-bottom: 28.2px;
+}
+
+.image-box.oeuvre-4 {
+    width: 16.375rem;
+    height: 21.9375rem;
+    flex-shrink: 0;
+    border: 1px solid #1C1A1A;
+    background: #FFF;
+    margin-top: 100px;
+    margin-left: 2.5px;
+    margin-right: 41.1px;
+    margin-bottom: 3.31px;
+}
+
+.image-box.oeuvre-5 {
+    width: 16.375rem;
+    height: 21.9375rem;
+    flex-shrink: 0;
+    border: 1px solid #1C1A1A;
+    background: #FFF;
+    margin-top: 100px;
+    margin-left: 22.8px;
+    margin-right: 20.8px;
+    margin-bottom: 3.31px;
+}
+
+.image-box.oeuvre-6{
+    width: 16.375rem;
+    height: 21.9375rem;
+    flex-shrink: 0;
+    border: 1px solid #1C1A1A;
+    background: #FFF;
+    margin-left: 41.8px;
+    margin-right: 1.74px;
+    margin-bottom: 3.31px;
+    margin-top: 100px;
+
+}
+
+
+.oeuvre-4 .text-box {
+margin-bottom: 10px; 
+}
+.oeuvre-5 .text-box{
+margin-bottom: 0px;
+}
+
+.oeuvre-6 .text-box {
+ margin-bottom: 0px;
+}
+
+.image-box {
+    width: 16.375rem;
+    height: 21.9375rem;
+    flex-shrink: 0;
+    border: 1px solid #1C1A1A;
+    background: #FFF;
+}
+
+.image-box img {
+    width: 13.625rem;
+    height: 15.1875rem;
+    flex-shrink: 0;
+}   
+
+.image-box p {
+    margin: 5px;
+    
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #F1E8E8;
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 59.9375rem;
+height: 41.0625rem;
+  
+}
+
+ .logo img {
+     width: 5.375rem;
+    height: 5.3125rem;
+    margin-left: 5.31rem;
+    flex-shrink: 0;
+ 
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #B8ADAD;
+    width: 959px;
+    height: 85px;
+    flex-shrink: 0;
+    justify-content: space-between;
+    padding-right: 75px;
+    margin-top: 9px;
+    margin-bottom: 35.19px; 
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 2.06px;
+}
+
+/* Styles généraux pour les liens du menu */
+nav ul li a {
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 0;
+    line-height: normal;
+    text-decoration: none; 
+    display: flex;
+width: 147px;
+height: 29px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #000;
+
+}
+
+/* Style spécifique pour le lien "ACCUEIL" */
+nav ul li:nth-child(1) a {
+    margin-right: 32.47px;
+    margin-left: 23.22px; 
+    margin-top: 2.06px; 
+    margin-bottom: 2.06px; 
+}
+
+/* Style spécifique pour le lien "OEUVRES" */
+nav ul li:nth-child(2) a {
+    margin-right: 18.44px;
+    margin-top: 2.06px;
+    margin-bottom: 2.06px; 
+    margin-left: 36.81px; 
+
+}
+
+/* Style spécifique pour le lien "À PROPOS" */
+nav ul li:nth-child(3) a {
+    margin-right: 4.94px;
+    margin-top: 2.06px;
+    margin-bottom: 2.06px; 
+    margin-left: 50.25px;  
+
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+img.small-image {
+    width: 10.6875rem;
+    height: 9rem;
+    flex-shrink: 0;
+    margin-bottom: 24.3px;
+    margin-top: 7.75px;
+    margin-right: 100px; 
+}
+
+
+img.medium-image {
+    width: 10.6875rem;
+height: 9rem;
+margin-right: 280px; 
+margin-left: 400px;
+margin-top: -300px;
+margin-bottom: 30px;
+}
+
+
+img.large-image {
+    width: 10.6875rem;
+    height: 9rem;
+    flex-shrink: 0;
+    margin-bottom: 24.3px;
+    margin-top: 2px;
+    margin-right: 120px; 
+}
+
+
+/* Style pour le premier rectangle */
+.text-rectangle.rectangle1 {
+
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    width: 24.5625rem;
+margin-bottom: 24.3px;
+    margin-top: 8px;
+    margin-left: 200px;
+    margin-right: -100px;
+
+}
+
+/* Style pour le deuxième rectangle */
+.text-rectangle.rectangle2 {
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+margin-bottom: 14.9px;
+    margin-top: 17.2px;
+    margin-left: 200px;
+    margin-right: -400px;
+    padding-left: 00px;
+
+}
+
+/* Style pour le troisième rectangle */
+.text-rectangle.rectangle3 {
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+margin-bottom: 4.69px;
+    margin-top: 2.4px;
+    margin-left: 100px;
+    margin-right: -45px;
+    padding-left: 00px;
+   
+}
+
+
+
+.page-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px; 
+}
+
+.text-rectangle {
+    width: 30rem;
+height: 9rem;
+flex-shrink: 0;
+background: #F4F4F4;
+text-align: center;
+
+}
+
+.text-rectangle p {
+    margin-bottom: 10px;
+    
+}
+
+
+.social-media {
+    padding: 1px;
+    text-align: center;
+}
+
+.line {
+    height: 2px;
+    margin-bottom: 20px;
+}
+
+.social-media img {
+    width: 3.1875rem;
+    height: 2.8125rem;
+    flex-shrink: 0;
+    background: #F1E8E8;
+  
+}
