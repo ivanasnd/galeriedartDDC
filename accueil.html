@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACCUEIL - Galerie Dedal des Couleurs</title>
-    <link rel="stylesheet" href="indexpage1.css">
+    <link rel="stylesheet" href="accueil.css">
 </head>
 
 <body>
@@ -15,7 +15,7 @@
         </div>
         <nav>
             <ul>
-                <li><a href="index.html">ACCUEIL</a></li>
+                <li><a href="accueil.html">ACCUEIL</a></li>
                 <li class="dropdown">
                     <a href="#">OEUVRES</a>
                     <div class="dropdown-content">
@@ -73,32 +73,48 @@
                 <input type="email" id="email" name="email" class="adresse-mail-input" required><br>
             </div>
       
-            <button type="button" class="submit-button" onclick="checkForm()">Envoyer</button>
-
         </form>
     </div>
-<!-- ... Votre HTML existant ... -->
+    
+    <footer>
+        <div class="footer-links">
+            <a href="oeuvres1.html">OEUVRES 1</a>
+            <a href="oeuvres2.html">OEUVRES 2</a>
+            <a href="apropos.html">À PROPOS</a>
+        </div>
+    </footer>
+
+
+ <!-- ... Votre HTML existant ... -->
+
+<button id="envoyerButton" class="submit-button" type="button">Envoyer</button>
 
 <script>
     function checkForm() {
         var prenom = document.getElementById("prenom").value;
         var nom = document.getElementById("nom").value;
         var email = document.getElementById("email").value;
-    
+
         if (prenom === "" || nom === "" || email === "") {
             alert("Remplir les champs suivants");
         } else {
-            // Si les champs sont remplis, vous pouvez soumettre le formulaire
             document.getElementById("myForm").submit();
         }
     }
-    
-    // Ajoutez cette partie pour associer la fonction checkForm au clic du bouton Envoyer
+
+</script>
+    <script>
+    // Ajouter cette partie pour associer la fonction checkForm au clic du bouton Envoyer
     document.getElementById("envoyerButton").addEventListener("click", checkForm);
- </script>
-    
-    
-   
+
+</script>
+
+<script>
+    // Redirection automatique après le chargement de la page
+    window.onload = function() {
+        window.location.href = "accueil.html";
+    };
+</script>
 
 </body>
 </html>
